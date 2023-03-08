@@ -11,3 +11,9 @@ def dice_page():
 @app.route('/test')
 def test():
     return "Works!"
+
+
+@app.route('/play')
+
+def play():
+    return "Play also works!"
